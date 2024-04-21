@@ -10,6 +10,7 @@ This is submission for GBH 2024 innovation track.
 -  Replaced missing values in validation/live data with 0 to maintain consistency and usability of the dataset.
 
 ### **Approach**
+- Input used includes `price`, `demand`, `temp_air`, `pv_power`, and `battery_soc` from the environment info
 - Utilized Soft Actor-Critic (SAC) algorithm, known for its effectiveness in reinforcement learning (RL) tasks.
 - Used simple MLP network architecture with lightweight models (10MB) for efficiency, facilitating deployment and scalability.
 - Achieved a score of 62, outperforming the baseline, demonstrating the algorithm's efficacy in energy trading.
