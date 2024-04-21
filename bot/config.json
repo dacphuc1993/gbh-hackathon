@@ -1,0 +1,8 @@
+{
+  "policy": {
+    "class_name": "SACPolicy",
+    "parameters": {
+		"weight_path": "bot/policies/sac_battery_mayril_3.zip"
+    }
+  }
+}
